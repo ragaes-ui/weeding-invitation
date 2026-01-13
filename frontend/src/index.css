@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* --- GLOBAL STYLES --- */
+html {
+  scroll-behavior: smooth; /* Efek scroll halus */
+}
+
+body {
+  /* Biar font terlihat tajam & premium di layar HP/Laptop */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafaf9; /* Stone-50 (Warna dasar) */
+  overflow-x: hidden; /* Mencegah scroll ke samping yang tidak perlu */
+}
+
+/* --- CUSTOM SCROLLBAR (Biar Aesthetic) --- */
+/* Lebar scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Warna background jalur scrollbar */
+::-webkit-scrollbar-track {
+  background: #f5f5f4; 
+}
+
+/* Warna batang scrollbar (Emas Tua/Amber) */
+::-webkit-scrollbar-thumb {
+  background: #d97706; 
+  border-radius: 5px;
+}
+
+/* Warna saat discroll pakai mouse */
+::-webkit-scrollbar-thumb:hover {
+  background: #b45309; 
+}
+
+/* --- ANIMASI TAMBAHAN --- */
+
+/* Animasi Putar Musik (Slow Spin) */
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 10s linear infinite;
+}
+
+/* Animasi Muncul dari Bawah (Fade In Up) */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+/* Class Utility untuk delay animasi */
+.delay-100 { animation-delay: 100ms; }
+.delay-200 { animation-delay: 200ms; }
+.delay-300 { animation-delay: 300ms; }
+
+/* --- CUSTOM SELECTION COLOR --- */
+/* Warna blok saat teks diblok/select */
+::selection {
+  background-color: #fde68a; /* Amber muda */
+  color: #78350f; /* Amber tua */
+}
