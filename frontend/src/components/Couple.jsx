@@ -23,12 +23,12 @@ const Couple = () => {
               <div className="absolute inset-0 rounded-full border-4 border-amber-200 animate-spin-slow dashed"></div>
               {/* PERBAIKAN PATH DI SINI */}
               <img 
-                src="/images/test.jpg" 
+                src="/images/Raga.mirror.jpg" 
                 alt="Groom" 
                 className="w-full h-full object-cover rounded-full border-4 border-white shadow-lg"
               />
             </div>
-            <h3 className="text-3xl font-cursive text-stone-800">pria</h3>
+            <h3 className="text-3xl font-cursive text-stone-800">Raga Esa Pratama</h3>
             <p className="text-sm text-stone-500 mt-2 font-bold">Putra Bpk. Wijaya & Ibu Siti</p>
             <p className="text-stone-500 text-sm mt-4 px-4">
               "Lelaki penyabar yang hobi coding dan main game, akhirnya menemukan player 2 dalam hidupnya."
@@ -51,12 +51,12 @@ const Couple = () => {
               <div className="absolute inset-0 rounded-full border-4 border-amber-200 animate-spin-slow dashed"></div>
               {/* PERBAIKAN PATH DI SINI */}
               <img 
-                src="/images/test.jpg" 
+                src="/images/Silviana.jpeg" 
                 alt="Bride" 
                 className="w-full h-full object-cover rounded-full border-4 border-white shadow-lg"
               />
             </div>
-            <h3 className="text-3xl font-cursive text-stone-800">wanita</h3>
+            <h3 className="text-3xl font-cursive text-stone-800">Silviana Putri</h3>
             <p className="text-sm text-stone-500 mt-2 font-bold">Putri Bpk. Capulet & Ibu Maimunah</p>
             <p className="text-stone-500 text-sm mt-4 px-4">
               "Wanita mandiri yang suka traveling, kini siap memulai petualangan baru sebagai seorang istri."
