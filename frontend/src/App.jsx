@@ -107,9 +107,9 @@ function App() {
       </section>
 
       <footer className="bg-stone-900 text-stone-400 text-center py-10 border-t border-stone-800">
-        <h3 className="font-cursive text-3xl text-stone-200 mb-4">Pria & Indah Wanita</h3>
+        <h3 className="font-cursive text-3xl text-stone-200 mb-4">Pria & Wanita</h3>
         <p className="text-sm mb-6">Terima kasih atas doa dan restu Anda</p>
-        <p className="opacity-40 text-xs">&copy; 2026 Wedding Invitation.</p>
+        <p className="opacity-40 text-xs">&copy; 2026 RCELLTECH ID WITH LOVE.</p>
       </footer>
 
       {/* 3. MUSIC PLAYER */}
