@@ -10,10 +10,10 @@ const stories = [
   {
     year: "2020",
     title: "Menyatakan Cinta",
-    desc: "Setelah 2 tahun berteman dekat, Romeo akhirnya memberanikan diri menyatakan perasaan di puncak bukit bintang."
+    desc: "Setelah 2 tahun berteman dekat, Raga akhirnya memberanikan diri menyatakan perasaan di puncak bukit bintang."
   },
   {
-    year: "2025",
+    year: "2026",
     title: "Lamaran",
     desc: "Disaksikan keluarga besar, kami mengikat janji untuk melangkah ke jenjang yang lebih serius."
   }
