@@ -23,7 +23,7 @@ function App() {
   useEffect(() => {
     // Inisialisasi Audio cuma sekali pas web dibuka
     // Pastikan file 'titiknadir.mp3' ada di folder 'public'
-    audioRef.current = new Audio('/titiknadir.mp3'); 
+    audioRef.current = new Audio('/Kotainitaksamatanpamu.mp3'); 
     audioRef.current.loop = true; // Lagu ngulang terus
 
     // Cleanup saat keluar
