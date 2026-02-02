@@ -6,14 +6,14 @@ import { IoMdClose } from 'react-icons/io'; // Import ikon close
 // Ganti path ini sesuai lokasi foto Abang.
 // Bisa di folder public (e.g., "/images/foto1.jpg") atau link external (Cloudinary)
 const photos = [
-  "/images/prewed-1.jpg", 
-  "/images/prewed-2.jpg",
-  "/images/prewed-3.jpg",
-  "/images/prewed-4.jpg",
-  "/images/prewed-5.jpg",
-  "/images/prewed-6.jpg",
-  "/images/prewed-7.jpg", // Tambahin aja kalau banyak
-  "/images/prewed-8.jpg",
+  "/images/SquarePic_20250402_08152219.jpg", 
+  "/images/SquarePic_20250907_19341094.jpg",
+  "/images/SquarePic_20250804_22475855.jpg",
+  "/images/Ragaindahmirror.jpg",
+  "/images/Ber2-pic.png",
+  "/images/Mirror-raga.jpeg",
+  "/images/Nobi-pic.jpg", // Tambahin aja kalau banyak
+  "/images/Love-pic.jpg",
 ];
 
 const Gallery = () => {
