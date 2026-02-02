@@ -8,7 +8,7 @@ import Couple from './components/Couple';
 import Story from './components/Story';   
 import Countdown from './components/Countdown';
 import Gallery from './components/Gallery'; 
-import Location from './components/location'; 
+import Location from './components/Location'; 
 import Gift from './components/gift';         
 import RSVPForm from './components/RSVPForm';
 import MusicPlayer from './components/MusicPlayer';
