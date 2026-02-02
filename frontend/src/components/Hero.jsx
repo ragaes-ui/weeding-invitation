@@ -18,7 +18,7 @@ const Hero = () => {
         className="relative z-20 text-center text-white p-4"
       >
         <p className="text-sm md:text-lg tracking-[0.3em] mb-4 font-sans uppercase">The Wedding Of</p>
-        <h1 className="text-6xl md:text-8xl font-cursive mb-6 text-amber-100">Pria & Wanita</h1>
+        <h1 className="text-6xl md:text-8xl font-cursive mb-6 text-amber-100">Raga Esa Pratama & Silviana Putri</h1>
         <div className="flex justify-center items-center gap-4 text-sm md:text-base font-serif">
           <span>SABTU</span>
           <span className="w-2 h-2 bg-amber-100 rounded-full"></span>
